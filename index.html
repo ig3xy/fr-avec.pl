@@ -1,0 +1,505 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title> Francuski </title>
+	<meta name="description" content="Francuski"/>
+	<meta name="keywords" content="francuski"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+	<link rel="stylesheet" href="w3.css" type="text/css"/>
+
+
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="http://cookiealert.sruu.pl/CookieAlert-latest.min.js"></script>
+
+	<script>
+		CookieAlert.init({
+			style: 'dark',
+			position: 'bottom',
+			opacity: '0.8',
+			displayTime: 0,
+			cookiePolicy: 'http://cookiealert.sruu.pl/o-ciasteczkach',
+			text: 'Ta strona wykorzystuje pliki cookies. Korzystanie z witryny oznacza zgodę na ich zapis lub odczyt wg ustawień przeglądarki.'
+		});
+	</script>
+
+</head>
+<body>
+
+<div class="container-fluid text-center">
+
+	<img src="img/frlogo.svg" alt="Liberte, Egalite, Fraternite" style="width: 200px; height: 120px; margin: 10px;">
+ 
+  	<p> aidez à sauver votre langue </p>
+</div>
+
+<div class="tab-panels">
+	<div class="w3-navbar w3-purple">
+		<ul>
+			<li id="dropkat"> Kategorie </li> <!-- coś w rodzaju dropdowna -->
+		</ul>
+		<ul class="tabs">
+		 		<li rel="panel0" class="w3-text-cyan w3-hover-pink main"> <strong> Strona główna </strong> </li>
+		   	<li rel="panel1" class="w3-hover-cyan"> architektura </li>
+		    <li rel="panel2 " class="w3-hover-pink"> przyroda </li>
+				<li rel="panel3" class="w3-hover-cyan"> człowiek </li>
+		    <li rel="panel4" class="w3-hover-pink"> komunikacja </li>
+		    <li rel="panel5" class="w3-hover-cyan"> kuchnia </li>
+				<li rel="panel6" class="w3-hover-pink"> bezkategoryczne </li>
+		</ul>
+	</div>
+
+	<div id="pkat" style="display:none;">
+
+		<ul id="zamknij">
+			<li><a href="verbes.html" target="_blank" > Czasowniki </a> </li>
+			<li><a href="adjectifs.html" target="_blank" > Przymiotniki </a> </li>
+			<li><a href="#" > Test </a> </li>
+		</ul>
+
+
+		<button type="button" id="x" class="btn btn-default btn-xs">
+        <span class="glyphicon glyphicon-menu-up"> </span> zwiń
+    </button>
+	</div>
+
+
+	<div id="panel0" class="panel ">
+		<div class="row">
+		
+			<div class="col-sm-4">
+				<h2 class="center"> <i> O stronie </i> </h2>
+				<p>
+				Baza słówek, powstała podczas nauki języka francuskiego.
+				<br> Słówka zebrane z artykułów francuskiej prasy i tekstów piosenek.
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<p class="center" style="font-size: 17px;">
+				⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<h2 class="center"> <i> À propos du site </i></h2>
+				<p>
+				Une base de données de mots créée lors de l'apprentissage du français.
+				Des mots tirés d'articles de la presse française et de paroles de chansons.
+				</p>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="container">
+		<div id="panel1" class="panel active">
+			<h3> Architektura - la architecture </h3>
+			<p>
+			most - le pont <br>
+			wieżowiec/biurowiec - le gratte-ciel <br>
+			budynek - le bâtiment <br>
+			mieszkanie - la habitation <br>
+			sklep - le magasin de commerce, la boutique <br>
+			rynek - le marché <br>
+			park - le parc <br>
+			ogród miejski - jardin public <br>
+			chodnik - le trottoir <br>
+			ławka - le banc <br>
+			ulica - la rue <br>
+			droga - la ruete <br>
+			autostrada - la autoroute, la chaussée <br>
+			latarnia - réverbère <br>
+
+
+
+			</p>
+
+			<h3> dom - la maison </h3>
+			<p>
+
+			okno - la fenêtre <br>
+			drzwi - la porte <br>
+			podłoga - le planchers <br>
+			mebel - le meuble <br>
+			łóżko - le lit / le châlit  / la couche / la couchette / le pieu <br>
+			fotel - le fauteuil / la chaise <br>
+			kszesło - la chaise <br>
+			siedzenie - le siège <br>
+			szafa - la penderie / la garde-robe <br>
+			gablota - la armoire <br>
+			kantorek, schowek, szafa - le placard <br>
+			biurko - le bureau <br>
+			komoda - la commode <br>
+			lustro - le miroir <br>
+			<br>
+			<strong> sprzęt AGD - électroménager </strong> <br>
+			pralka - la machine à laver / la laveuse <br>
+			odkurzacz - le aspirateur <br>
+
+			</p>
+		</div>
+
+<!-- PRZYRODA -->
+
+		<div id="panel2" class="panel">
+		<h3> Przyroda - la nature </h3>
+		<p>
+		dzień - un jour <br>
+		noc - une nuit <br>
+		światło - la lumière <br>
+		ciemność - la obscurité, le noir <br>
+		niebo - le ciel <br>
+		chmura - le nuage <br>
+		słońce - le soleil <br>
+		ksieżyc - la lune <br>
+		gwiazda - la étoile <br>
+		planeta - la planète <br>
+		<br>
+		drzewo - le arbre <br>
+		trawa - la herbe <br>
+		liść - la feuille <br>
+		igła - le limbe <br>
+		góry - la montagne <br>
+		wzgórze - la colline <br>
+		dolina - la vallée <br>
+		rzeka - la rivière <br>
+		jezioro - le lac <br>
+		staw - le étang <br>
+		morze - la mer <br>
+
+		</p>
+
+		</div>
+		<div id="panel3" class="panel">
+			<h3> Człowiek - l'homme </h3>
+			<div class="row">
+			<div class="col-sm-4">
+			<p>
+			głowa - la tête <br>
+			oczy - les yeux <br>
+			usta - la bouche <br>
+			nos - le nez <br>
+			włosy - le cheveu <br>
+			brew - le sourcil <br>
+			rzęsy - les cils <br>
+			czoło - le front <br>
+			policzek - la joue <br>
+			ucho - la oreille <br>
+			szyja - le cou <br>
+			tułów, korpus - le tronc <br>
+			brzuch - le ventre <br>
+			ręka, bark - le bras <br>
+			łokieć - la coudée <br>
+			dłoń - la main <br>
+			palec - le doigt <br>
+			noga - la jambe <br>
+			kolano - le genou <br>
+			stopa - le pied <br>
+			paznokieć - le ongle <br>
+			</p>
+			</div>
+			<div class="col-sm-4">
+			<p>
+				<strong> ubrania - vêtements </strong> <br>
+				jupon - spódniczka <br>
+				un anorak - kurtka z kapturem <br>
+				des bas - pończochy <br>
+				des bijoux - biżuteria <br>
+				un bikini - bikini <br>
+				un blouse - bluza <br>
+				un casquette - czapka <br>
+				un ceinture - pasek <br>
+				un chandail - sweter <br>
+				un gros chandail - gruby sweter <br>
+				un chapeau - kapelusz <br>
+				des chaussettes - skarpetki <br>
+				une chaussette à mi-jambe - podkolanówka <br>
+				une chaussure - obuwie <br>
+				une chemise - koszula <br>
+				une chemise de nuit - koszula nocna <br>
+				des collants - rajstopy <br>
+				une costume - garnitur <br>
+				une cravate - krawat <br>
+				une culotte - majtki <br>
+				une echarpe - szalik <br>
+				des gants - rękawiczki <br>
+				un gilet - kamizelka <br>
+				un jeans - dżinsy <br>
+				une jupe - spódniczka <br>
+				un maillot de bain - strój kąpielowy <br>
+				un maillot de corps - podkoszulek <br>
+				un manteau - płaszcz <br>
+				un pantalon - spodnie <br>
+				un pull-over - sweterek <br>
+				un pyjama - piżama <br>
+				une robe - sukienka <br>
+				une robe de soir - sukienka wieczorowa <br>
+				un sac à main - torebka <br>
+				un sac à dos - plecak <br>
+				un soutien-gorge - stanik <br>
+				des sous-vêtements - bielizna osobista <br>
+				un tailleur - kostium <br>
+				un tee-shirt - podkoszulek <br>
+				une vest - marynarka <br>
+				une veste de sport - kurtka sportowa <br>
+
+			</p>
+			</div>
+			</div>
+
+		</div>
+<!-- KOMUNIKACJA -->
+		<div id="panel4" class="panel">
+			<h3 style="text-align: center;"> komunikacja -  la communication </h3>
+			<div class="row">
+			<div class="col-sm-4">
+
+				<h3> W relacjach <i> dans les relations </i></h3>
+				<p>
+				un copin - kolega <br>
+				une copine - koleżanka <br>
+				mąż - le mari, l'homme <br>
+				żona - la épouse, la femme <br>
+				ojciec - père /papa
+				matka - mère
+				brat - frère
+				siostra - sœur
+				dziadek - grand-père
+				babcia - grand-mère
+				wujek - oncle
+				ciotka - tante
+
+				communauté - społeczność <br>
+				pays - kraj, państwo <br>
+				tutelle - opieka <br>
+				achats - zakupy <br>
+				défilés - pochód, marsz
+				grève - strajk, protest,
+				la rigueur - rygor
+
+				<br><br>
+				<strong> powitanie </strong>
+
+				uścisk dłoni - poignée de mains
+				przytulenie - étreinte
+				pocałunek - bisou, bécot
+
+
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<h3> Na lądzie <i> sur la terre </i> </h3>
+				<p>
+				rower - le vélo / la bicyclette <br>
+				rower - la voiture <br>
+				pociąg - <br>
+				deskorolka - <br>
+				rolki - <br>
+				</p>
+
+				<h3> W powietrzu <i> </i> </h3>
+				<p>
+					ciel - niebio <br>
+					crépuscule - zmierzch <br>
+				</p>
+
+				<h3> Na wodzie <i> </i></h3>
+				<p>
+				pod wodą - sous l'eau <br>
+				wódka - eau-de-vie <br>
+				wyspa - la île <br>
+				łódź - le bateau, le navire <br>
+				 <br>
+				</p>
+
+				<h3> W kosmosie <i> </i></h3>
+				<p>
+
+				</p>
+			</div>
+
+
+			<div class="col-sm-4">
+				<h3> Podróż - le voyage </h3>
+					<p>
+					lot samolotem -
+					przejazd autobusem -
+					przejazd samochodem -
+					rejs statkiem -
+					</p>
+				<h3> Zakupy - les courses </h3>
+					<p>
+					sprzedaż - vente <br> <!-- tu komentarz po najechaniu korsorem, że "sprzedać - vendre" -->
+					kolejka - la queue <br>
+					wyprzedaż - les soldes <br>
+					cena - le prix <br>
+
+					</p>
+			</div>
+			</div>
+		</div>
+
+<!-- KUCHNIA -->
+		<div id="panel5" class="panel">
+			<div class="row">
+			<div class="col-sm-6">
+				<h2 style="text-align: center;"> Kuchnia - la cuisine  </h2>
+				jedzenie - une nourriture <br>
+				piekarnik - le four <br>
+
+
+				<h3> Owoce <i> fruits </i> </h3>
+				<p>
+				jabłko - la pomme <br>
+				gruszka - la poire <br>
+				cytryna - le citron <br>
+				</p>
+
+				<h3> Warzywa <i> une légumes </i> </h3>
+				<p>
+				papryka - la paprika <br>
+				kukurydza - la mais <br>
+				pomidor - le tomate <br>
+				ogórek - le concombre <br>
+				</p>
+
+				<h3> Zwierzęta <i> les animals </i> </h3>
+				<p>
+				mięso - la viande <br>
+				wołowina - le bœuf <br>
+				wieprzowina - le porc <br>
+				drób - la volaille, la poulaille <br>
+				owoce morza - le fruits de mer <br>
+				kurczak - le poulet <br>
+				indyk - le dindon <br>
+				kaczka - le canard <br>
+				krowa - la vache <br>
+				świnia - le cochon <br>
+				krewetki - la crevette <br>
+				ryba - le poisson <br>
+				tuńczyk - le thon <br>
+				karp - la carpe <br>
+				makrela - le maquereau <br>
+				dorsz - la morue <br>
+
+				</p>
+
+				<h3> Specjały francuskie / french special one's </h3>
+				<p>
+
+				</p>
+
+			</div>
+
+			<div class="col-sm-6">
+				<img src="http://i.iplsc.com/owoce-i-warzywa-sa-nie-tylko-zdrowe-pomagaja-takze-urodzie/0001D8OPCS0JTJ57-C122-F4.jpg" style="width:200px; height: 150px;">
+
+			</div>
+			</div>
+		</div>
+
+
+		<div id="panel6" class="panel">
+			<div class="row">
+				<h2 style="text-align: center;"> Bez kategorii - sans niveau </h2>
+				<div class="col-sm-6">
+					<p>
+						na pamięć - par coeur <br>
+						na zawsze - pour toujours <br>
+						na ulicy - dans la rue <br>
+						na zewnątrz - dehors <br>
+						na sprzedaż - à vendre <br>
+						na końcu - à la fin <br>
+						na górze - en haut <br>
+						contre - przeciwko <br>
+						quotidien - codzienny <br>
+						raclée - baty, bicie, wpierdol, chłosta <br>
+
+
+					</p>
+				</div>
+				<div class="col-sm-6">
+					<p>
+						bez - sans <br>
+						bez wątpienia - sans aucun doute <br>
+						bez grosza - sans le sou <br>
+						bez względu na... - sans avoir égard à... <br>
+						bez namysłu - sans hésiter (szybko), sans réfléchir (niemyśląc) <br>
+						to nie ma sensu - cela n´a pas de sens <br>
+						złodziej - le voleur <br>
+						środki finansowe - capitaux <br>
+						atout - zaleta, atut <br>
+
+					</p>
+					<p>
+						la mutinerie - bunt <br>
+						la fragilité - kruchość <br>
+						le afflux - napływ, przypływ <br>
+						la soif - pragnenie <br>
+						le frein - hamulec <br>
+						la pauvreté - bieda <br>
+					</p>
+
+				</div>
+			</div>
+		</div>
+
+<!-- NOWA GRUPA CZASOWNIKI / PRZYMIOTNIKI / ... -->
+
+		<div id="czasowniki" class="panel">
+			<div class="row">
+				<h2 style="text-align: center;"> Czasowniki </h2>
+				<div class="col-sm-6">
+					<p>
+						entende - rozumieć <br>
+						lutter - zmagać się <br>
+						donner - dać <br>
+						baiser - pocałować <br>
+					</p>
+				</div>
+			</div>
+		</div>
+
+
+
+	</div>
+</div>
+
+<div class="media">
+		<iframe id="ressource-embeded" width="430" height="520" src="http://enseigner.tv5monde.com/ressource-pedagogique/3504" frameborder="0">
+		</iframe>		
+</div>
+
+<div class="recap visibility">
+	<h4 class="center"> Kontakt </h4>
+	<p> <span class="glyphicon glyphicon-envelope"></span> &nbsp ig3dev@linux.pl
+	<br> &nbsp &nbsp <span class="glyphicon glyphicon-star-empty"></span> &nbsp <a href="http://www.ig3dev.pl" target="_blank"> ig3dev.pl </a>
+	</p>
+</div>
+
+<div class="dropdown">
+<div class="recap2 visibility">
+	<h4 class="center"> Donate </h4>
+	<p class="center"> <img src="img/btc.png" style="height: 50%; width: 50%;"> </p>
+		<div class="dropdown-content">
+			<img src="img/btc-transfer.png" style="height: 100%; width: 100%;">
+			<div class="desc"> BTC - donate adress </div>
+		</div>
+</div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
