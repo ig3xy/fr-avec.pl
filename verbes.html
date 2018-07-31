@@ -2,15 +2,13 @@
 <html lang="pl">
 <head>
 	<meta charset="utf-8" />
-	<title> Francuski - czasowniki </title>
+	<title> fr-avec.pl | czasowniki </title>
 	<meta name="description" content="Francuski"/>
 	<meta name="keywords" content="francuski"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 
 	<link rel="stylesheet" href="style.css" type="text/css"/>
 	<link rel="stylesheet" href="w3.css" type="text/css"/>
-
-
 	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 
 	<!-- Latest compiled and minified CSS -->
@@ -23,124 +21,36 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <style>
-
-.dropdown {
-    position: relative;
-    display: inline-block;
+body{
+	
+	font-family: Inconsolata;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.desc {
-    padding: 15px;
-    text-align: center;
-}
 </style>
-
-
-
-
 
 </head>
 <body>
 <div class="container">
-<!-- BĘDZIE TU PODZIAŁ NA 3 GRUPY CZASOWNIKÓW -->
 	<h2> Czasowniki </h2>
-	<ul style="list-style-type:none;">
+	<ul style="list-style-type: none;">
 		<li> apprendre - to learn / to teach </li>
-		<li> <span data-toggle="tooltip" title="Il a l'air sympa">  avoir l'air [+adjective] - to seem [przymiotnik] </span> </li>
+		<li> avoir l'air [+adjective] - to seem [przymiotnik] </li>
 		<li> cesser - przerwać, przestać </li>
 		<li> s'occuper de - to care for / to look after </li>
 		<li> remplacer - replace </li>
-		<li data-toggle="dropdown" data-content=" Je parts, Tu, Il Elle On, Nous, Vous, Ils Elles" > partir - to leave </li>
+		<li> partir - to leave </li>
 		<li> approcher - zbliżać się </li>
 		<li> afficher - ogłaszać, wyświetlać </li>
 		<li> renvoyer - odesłać </li>
 		<li> vanter - chwalić </li>
-		
 		<li> défaillir - słabnąć </li>
 		<li> témoigner - zaświadczać </li>
 		<li> inquiéter - niepokoić </li>
 		<li> rafraichir - odświeżyć </li>
 		<li> fuir - uciekać </li>
-		<li><a href="#" title="odmiana" data-toggle="popover" data-placement="right" 
-		data-content="Je <br> Tu <br> Il <br> Elle <br>"> fuir - uciekać </a></li>
-		</ul>
-		
-		
-		<!-- w JS trzeba zrobić tak, żeby skrypt obsługiwał każdy dropdown, bez pisania tysiac razy tego samego przy każdym słówku-->
-		
-		<div class="dropdown">
-		 <li> fuir - uciekać </li>
-		<div class="dropdown-content">
-			<p> 
-				je fuis <br>
-				tu fuis <br>
-				il/elle fuit <br>
-				nous fuyons <br>
-				vous fuyez <br>
-				ils/elles fuient <br>
-			</p>
-		
-		 </div>
-		</div>
-		
-	
-	
-
-
-
-<br> 
-<h2>Dropdown Image PRZYKŁAD</h2>
-<p>Move the mouse over the image below to open the dropdown content.</p>
-
-<div class="dropdown">
-  <img src="https://akimg0.ask.fm/assets2/152/458/048/768/normal/naaskamyszkaminnie.jpg" alt="Trolltunga Norway" width="100" height="50">
-  <div class="dropdown-content">
-    <img src="https://pp.userapi.com/c629327/v629327473/db66/r051joYFRX0.jpg" alt="Trolltunga Norway" width="300" height="200">
-    <div class="desc">Beautiful Trolltunga, Norway</div>
-  </div>
-</div>
-	
-	
-	
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	
-	
-	<div style="width: 300px;">
-	<h3>Tooltip Example</h3>
-
-	<ul style="list-style-type: none;">
-  <li data-toggle="tooltip" title=" approcher - zbliżać się" >Hover over me</li>
-	</ul>
-	</div>
-	
+	</ul>			
 </div>
 
-<script>
-
-$(document).ready(function(){
-    $('[data-toggle="popover"]').popover();   
-});
-
-
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();   
-});
-
-
-</script>
 
 </body>
 </html>
